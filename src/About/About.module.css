@@ -1,0 +1,26 @@
+
+.heroSection{
+    background-color: #1ABC9C;
+    margin-top: 100px;
+    min-height: calc(-120px + 100vh);
+}
+.heroImg{
+    max-width: 250px;
+}
+.heading{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+}
+.rectangle{
+    width: 80px;
+    height: 4px;
+    background-color: white;
+    display: inline-block;
+}
+.test{
+    max-width: 1150px;
+}

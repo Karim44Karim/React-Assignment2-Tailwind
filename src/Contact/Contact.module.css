@@ -1,0 +1,61 @@
+
+.heroSection{
+    background-color: white;
+    margin-top: 100px;
+    min-height: calc(-120px + 100vh);
+}
+.heroImg{
+    max-width: 250px;
+}
+.heading{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #2C3E50;
+}
+.rectangle{
+    width: 80px;
+    height: 4px;
+    background-color: #2C3E50;
+    display: inline-block;
+}
+.icon-star-full-dark{
+    color: #2C3E50;
+}
+.label{
+    color: #1abc9c;
+    transition: all 0.5s;
+}
+.labelHide{
+    transform: translateY(150%);
+}
+/* .input{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding: 10px;
+} */
+.heroSection form input{
+    padding: 10px;
+    background-color: white;
+    color: black;
+    border: none !important;
+    border-bottom: 1px solid lightgrey !important;
+}
+input:focus, .btn-custom:focus{
+    outline: none;
+    box-shadow: none;
+    border-color: lightgrey;
+}
+/* .input:focus, .btn-custom:focus{
+    outline: none;
+    box-shadow: none;
+    border-color: lightgrey;
+} */
+.btn-custom{
+    background-color: #1abc9c;
+    border: none;
+    border-radius: 5px;
+}

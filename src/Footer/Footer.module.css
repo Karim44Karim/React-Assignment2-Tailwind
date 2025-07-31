@@ -1,0 +1,17 @@
+.footer-bg{
+    background-color: #2C3E50;
+}
+.footer-bg-dark{
+    background-color: #1A252F;
+}
+ul{
+    list-style: none;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+p{
+    margin: 0;
+}

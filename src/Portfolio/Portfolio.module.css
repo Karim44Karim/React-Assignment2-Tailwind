@@ -1,0 +1,49 @@
+
+.heroSection{
+    background-color: white;
+    margin-top: 100px;
+    min-height: calc(-120px + 100vh);
+}
+.heroImg{
+    max-width: 250px;
+}
+.heading{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #2C3E50;
+}
+.rectangle{
+    width: 80px;
+    height: 4px;
+    background-color: #2C3E50;
+    display: inline-block;
+}
+.icon-star-full-dark{
+    color: #2C3E50;
+}
+.overlay{
+    background-color: rgba(90, 92, 215, 0.363);
+    position: fixed;
+    inset: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+}
+.image-overlay{
+    background-color: #1aba9fd8;
+    font-size: 96px;
+    color: white;
+    display: none;
+    opacity: 0;
+    cursor: pointer;
+    transition: opacity 1s;
+}
+.image-parent:hover .image-overlay{
+    opacity: 100%;
+}

@@ -1,0 +1,9 @@
+@import "tailwindcss";
+@plugin "flowbite-react/plugin/tailwindcss";
+@source "../.flowbite-react/class-list.json";
+
+nav ul a.active{
+    background-color: #1ABC9C;
+    color: white !important;
+    border-radius: 10px;
+}
